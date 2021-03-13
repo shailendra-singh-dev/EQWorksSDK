@@ -1,0 +1,2 @@
+include ':app', ':eqworkssdklib'
+rootProject.name='EQWorksSDK'
