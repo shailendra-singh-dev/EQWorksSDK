@@ -20,6 +20,19 @@ public class GeoLocationEndPoint {
                 .add("longitude", String.valueOf(longitude))
                 .add("latitude", String.valueOf(latitude))
                 .build();
+
+        executeFormParams(formBody);
+    }
+
+    public static void run(final String error)  {
+        RequestBody formBody = new FormBody.Builder()
+                .add("error", error)
+                .build();
+
+        executeFormParams(formBody);
+    }
+
+    private static void executeFormParams(RequestBody formBody) {
         Request request = new Request.Builder()
                 .url(URL)
                 .post(formBody)
@@ -40,4 +53,6 @@ public class GeoLocationEndPoint {
             }
         });
     }
+
+
 }

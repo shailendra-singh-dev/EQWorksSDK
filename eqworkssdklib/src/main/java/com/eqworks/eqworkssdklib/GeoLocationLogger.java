@@ -2,6 +2,9 @@ package com.eqworks.eqworkssdklib;
 
 import android.content.Context;
 import android.location.Location;
+import android.util.Log;
+
+import androidx.annotation.NonNull;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,17 +12,29 @@ import java.util.Date;
 
 public class GeoLocationLogger {
 
-    private GeoLocationTaskManager mGeoLocationTaskManager;
+    //Make it null for verifying Unexpected error happened in SDK.
+    private static GeoLocationTaskManager mGeoLocationTaskManager = GeoLocationTaskManager.getManager();
+    private static String TAG = "GeoLocationLogger";
 
-    private GeoLocationLogger() {
-        mGeoLocationTaskManager = GeoLocationTaskManager.getManager();
+    private static void initDefaultExceptionHandler(){
+        Log.i(TAG, "initDefaultExceptionHandler()");
+        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+                    @Override
+                    public void uncaughtException(Thread paramThread, Throwable paramThrowable) {
+                        Log.i(TAG, "uncaughtException(),Sending unexpected error details to server:" + paramThrowable);
+                        GeoLocationEndPoint.run(paramThrowable.toString());
+                    }
+                });
     }
 
-    public void log(final Context context) {
+    public static void log(final Context context) {
+        initDefaultExceptionHandler();
         log(context, System.currentTimeMillis());
     }
 
-    public void log(final Context context, long currentTime) {
+    public static void log(final Context context, long currentTime) {
+        initDefaultExceptionHandler();
+        Log.i(TAG, "log(),currentTime:" + currentTime);
         mGeoLocationTaskManager.run(new Task(context, currentTime));
     }
 
@@ -35,14 +50,21 @@ public class GeoLocationLogger {
 
         @Override
         public void run() {
+            Log.i(TAG, "run()");
             while (location.getLongitude() == 0 && location.getLatitude() == 0) {
                 try {
-                    wait();
+                    wait(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-            GeoLocationEndPoint.run(getTimeFromLong(mCurrentTime), location.getLongitude(), location.getLatitude());
+            Log.i(TAG, "run(),location: " + location);
+            if (location.getLongitude() != 0 && location.getLatitude() != 0) {
+                GeoLocationEndPoint.run(getTimeFromLong(mCurrentTime), location.getLongitude(), location.getLatitude());
+            } else {
+                GeoLocationEndPoint.run(getTimeFromLong(mCurrentTime), 0, 0);
+            }
+
         }
 
         public String getTimeFromLong(long timeInMilliseconds) {
