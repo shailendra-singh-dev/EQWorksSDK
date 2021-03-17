@@ -15,6 +15,7 @@ public class GeoLocationLogger {
     //Make it null for verifying Unexpected error happened in SDK.
     private static GeoLocationTaskManager mGeoLocationTaskManager = GeoLocationTaskManager.getManager();
     private static String TAG = "GeoLocationLogger";
+    private static GeoLocationEndPoint mGeoLocationEndPoint = new GeoLocationEndPoint();
 
     private static void initDefaultExceptionHandler(){
         Log.i(TAG, "initDefaultExceptionHandler()");
@@ -22,7 +23,7 @@ public class GeoLocationLogger {
                     @Override
                     public void uncaughtException(Thread paramThread, Throwable paramThrowable) {
                         Log.i(TAG, "uncaughtException(),Sending unexpected error details to server:" + paramThrowable);
-                        GeoLocationEndPoint.run(paramThrowable.toString());
+                        mGeoLocationEndPoint.run(paramThrowable.toString());
                     }
                 });
     }
@@ -60,21 +61,14 @@ public class GeoLocationLogger {
             }
             Log.i(TAG, "run(),location: " + location);
             if (location.getLongitude() != 0 && location.getLatitude() != 0) {
-                GeoLocationEndPoint.run(getTimeFromLong(mCurrentTime), location.getLongitude(), location.getLatitude());
+                mGeoLocationEndPoint.run(Utils.getTimeFromLong(mCurrentTime), location.getLongitude(), location.getLatitude());
             } else {
-                GeoLocationEndPoint.run(getTimeFromLong(mCurrentTime), 0, 0);
+                mGeoLocationEndPoint.run(Utils.getTimeFromLong(mCurrentTime), 0, 0);
             }
 
         }
 
-        public String getTimeFromLong(long timeInMilliseconds) {
-            if (timeInMilliseconds == 0)
-                timeInMilliseconds = System.currentTimeMillis();
-            // Creating date format
-            DateFormat simple = new SimpleDateFormat("dd MMM yyyy HH:mm:ss:SSS Z");
-            Date result = new Date(timeInMilliseconds);
-            return simple.format(result);
-        }
+
     }
 
 
