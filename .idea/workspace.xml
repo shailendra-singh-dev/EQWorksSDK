@@ -10,7 +10,38 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d44d20-54bd-4a40-8cd7-048d8b7dfe29" name="Default Changelist" comment="" />
+    <list default="true" id="10d44d20-54bd-4a40-8cd7-048d8b7dfe29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/full_jar/release/createFullJarRelease/full.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/full_jar/release/createFullJarRelease/full.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationTaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/GeoLocationTaskManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/MainThreadExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/MainThreadExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/debug/classes/com/eqworks/eqworkssdklib/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationEndPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationTaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/GeoLocationTaskManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/MainThreadExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/MainThreadExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/javac/release/classes/com/eqworks/eqworkssdklib/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/runtime_library_classes/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eqworkssdklib/build/intermediates/runtime_library_classes/release/classes.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eqworkssdklib/src/test/java/com/eqworks/eqworkssdklib/GeoLocationEndPointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#737#738#0" expanded="true" />
@@ -100,7 +131,7 @@
           <provider editor-type-id="android-manifest" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eqworkssdklib/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -251,14 +282,14 @@
               <item name="EQWorksSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="eqworkssdklib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EQWorksSDK" type="b2602c69:ProjectViewProjectNode" />
               <item name="EQWorksSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="eqworkssdklib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,7 +297,7 @@
               <item name="EQWorksSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="eqworkssdklib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="eqworkssdklib" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -307,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.D:/Developement/Android Studio Projects/EQWorksSDK/eqworkssdklib [createFullJarRelease]">
+  <component name="RunManager" selected="Android JUnit.GeoLocationEndPointTest">
     <configuration name="GeoLocationEndPointTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="eqworkssdklib" />
       <extension name="coverage">
@@ -422,8 +453,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.D:/Developement/Android Studio Projects/EQWorksSDK/eqworkssdklib [createFullJarRelease]" />
         <item itemvalue="Android JUnit.GeoLocationEndPointTest" />
+        <item itemvalue="Gradle.D:/Developement/Android Studio Projects/EQWorksSDK/eqworkssdklib [createFullJarRelease]" />
         <item itemvalue="Android JUnit.GeoLocationEndPointTest.testPostHttpCall" />
       </list>
     </recent_temporary>
@@ -442,9 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeoLocationEndPointTest - 2021.03.17 at 00h 14m 20s.xml">
-      <configuration name="GeoLocationEndPointTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="GeoLocationEndPointTest_testPostHttpCall - 2021.03.17 at 00h 16m 27s.xml">
       <configuration name="GeoLocationEndPointTest.testPostHttpCall" configurationId="AndroidJUnit" />
     </history-entry>
@@ -472,13 +500,16 @@
     <history-entry file="GeoLocationEndPointTest - 2021.03.17 at 17h 06m 00s.xml">
       <configuration name="GeoLocationEndPointTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="GeoLocationEndPointTest - 2021.03.17 at 19h 07m 19s.xml">
+      <configuration name="GeoLocationEndPointTest" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24228188" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24228188" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -486,7 +517,7 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" weight="0.33002833" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.58498585" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.3186969" />
@@ -497,7 +528,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" visible="true" weight="0.08590604" />
+      <window_info anchor="right" id="Gradle" order="2" visible="true" weight="0.38590604" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -549,17 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eqworkssdklib/src/test/java/com/eqworks/eqworkssdklib/GeoLocationEndPointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,6 +673,17 @@
         </state>
       </provider>
       <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eqworkssdklib/src/test/java/com/eqworks/eqworkssdklib/GeoLocationEndPointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
