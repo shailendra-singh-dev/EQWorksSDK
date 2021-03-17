@@ -12,10 +12,20 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+/**
+ * Class for Dealing with Backend  end points.
+ */
 public class GeoLocationEndPoint {
 
     private static final String URL = "https://httpbin.org/post";
 
+    /**
+     * Method to send time, longitude, latitude.
+     * @param currentTime
+     * @param longitude
+     * @param latitude
+     * @return
+     */
     public boolean run(final String currentTime, final double longitude, double latitude) {
         if (currentTime == null || currentTime.isEmpty()) {
             return false;
@@ -34,6 +44,11 @@ public class GeoLocationEndPoint {
         }
     }
 
+    /**
+     * Method to send error details when unexpected error occures.
+     * @param error
+     * @return
+     */
     public boolean run(final String error) {
         if (error == null || error.isEmpty()) {
             return false;
@@ -50,6 +65,10 @@ public class GeoLocationEndPoint {
         }
     }
 
+    /**
+     * Method to send form body consisting of params.
+     * @param formBody
+     */
     public void executeFormParams(RequestBody formBody) {
         Request request = new Request.Builder()
                 .url(URL)

@@ -5,6 +5,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Class for putting multiple request into queue .
+ */
 public class GeoLocationTaskManager {
 
     private final ThreadPoolExecutor downloadThreadPool;

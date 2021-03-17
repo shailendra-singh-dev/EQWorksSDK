@@ -9,6 +9,10 @@ import android.location.LocationManager;
 
 import androidx.core.app.ActivityCompat;
 
+/**
+ * It will fetch location either from GPS OR Mobile/Wifi network depending on availability.
+ */
+
 public class GeoLocation {
 
     private Location mFinalLocation;
@@ -23,12 +27,21 @@ public class GeoLocation {
         init(context, lm);
     }
 
+    /**
+     * Listener for location updates.
+     */
     private final LocationListener locationListener = new LocationListener() {
         public void onLocationChanged(Location location) {
             mFinalLocation = location;
         }
     };
 
+
+    /**
+     * Method for getting location via different sources.
+     * @param context
+     * @param lm
+     */
     private void init(final Context context, final LocationManager lm) {
         boolean isGpsEnabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
         boolean isNetworkLocationEnabled = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
@@ -56,6 +69,10 @@ public class GeoLocation {
         }
     }
 
+    /**
+     * Method to get Location.
+     * @return
+     */
     public Location getLocation() {
         return mFinalLocation;
     }

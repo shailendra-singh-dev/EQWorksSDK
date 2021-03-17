@@ -7,6 +7,9 @@ import androidx.annotation.NonNull;
 
 import java.util.concurrent.Executor;
 
+/**
+ * Thread pool executor
+ */
 public class MainThreadExecutor implements Executor {
 
     private Handler handler = new Handler(Looper.getMainLooper());
